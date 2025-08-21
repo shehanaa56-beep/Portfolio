@@ -1,0 +1,229 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mammootty Awards</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #1a001f, #330033);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1.page-title {
+      text-align: center;
+      margin: 2rem 0;
+      color: #ffccff;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px #000;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .container {
+      padding: 1rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      color: #ddd;
+    }
+
+    .img-fluid {
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .col-md-4:hover .img-fluid {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .img-fluid {
+        height: auto;
+      }
+
+      .card {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="page-title">Mammootty's Prestigious Awards</h1>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/filmfare.jfif" class="img-fluid rounded-start" alt="Filmfare Award">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Filmfare Awards</h5>
+                <p class="card-text">Multiple wins for Best Actor in Malayalam cinema.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/national.jpg" class="img-fluid rounded-start" alt="Kerala Prabha Award">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Kerala Prabha Award</h5>
+                <p class="card-text">Received in 1998 for excellence in cinema.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/kerala.jpg" class="img-fluid rounded-start" alt="Kerala Film Critics Award">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Kerala Film Critics Award</h5>
+                <p class="card-text">Honored multiple times for outstanding acting.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/national film.jpg" class="img-fluid rounded-start" alt="National Award">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">National Film Award</h5>
+                <p class="card-text">Three-time winner for Best Actor in India.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/asianet.jpg" class="img-fluid rounded-start" alt="Asianet Award">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Asianet Film Awards</h5>
+                <p class="card-text">Recognized for excellence in acting and lifetime achievements.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/film.jpg" class="img-fluid rounded-start" alt="Filmfare Lifetime">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Filmfare Lifetime Achievement</h5>
+                <p class="card-text">Honored for his contributions to Indian cinema.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/best.jpg" class="img-fluid rounded-start" alt="Best Actor Award">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Best Actor Awards</h5>
+                <p class="card-text">Received numerous state and national awards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/ke.jfif" class="img-fluid rounded-start" alt="Kerala State Award">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Kerala State Film Award</h5>
+                <p class="card-text">Won multiple times for Best Actor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- row end -->
+  </div> <!-- container end -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

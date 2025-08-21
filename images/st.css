@@ -1,0 +1,26 @@
+body,html{
+            font-family: Arial,sans-serif;margin: 0px;padding:0;background-color:#f0f0f0;
+            height:50%;display:flex;justify-content: center;flex-direction:column;
+}
+.container{
+     text-align: left;
+}
+.header{
+     font-size: 24px;margin-bottom: 20px;
+}
+.content-box{
+     background: white;
+     border-radius:10px ;
+     padding:20px;
+     margin-top: 20px;
+     border-radius: 5px;
+     box-shadow:0 0 10px rgba(0,0,0,0.1);
+     width:100px;
+     margin:auto;
+}
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
